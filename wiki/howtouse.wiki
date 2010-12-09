@@ -1,4 +1,4 @@
-#How to use
+#1
 
 = Introduction =
 
@@ -7,20 +7,22 @@ How to use this firejspt
 
 = Details =
 
-1. You must get it in your page :
+1. You must insert it in your page at first:
 <script type="text/javascript" src="firejspt.js"  ></script>
 
 2. If you have a function like this:
-
-  function testFun(){
+ function testFun(){
      for (var i=0;i<500;i++){
 	   $("#test").html("Hello World");
 	 }	 
   }
 
+*you can test the function's Performance with this code:*
 
-  you can test the function's Performance with:
+<script type="text/javascript">
 
-   *jspt.test(function(){testFun();}); *
+ jspt.test(function(){testFun();});  
+
+</script>
 
    
