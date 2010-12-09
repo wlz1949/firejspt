@@ -3,6 +3,7 @@
 * Description：Using Firebug's Console to do the Javascript performance test,help you find performance bottlenecks.
 * Author： kacakong@gmail.com  
 * Version: v1.0 beta
+* Sample: jspt.test(function(){  testFun();  }); 
 */
  var jspt={
 	 run:true,
