@@ -1,0 +1,26 @@
+#How to use
+
+= Introduction =
+
+How to use this firejspt
+
+
+= Details =
+
+1. You must get it in your page :
+<script type="text/javascript" src="firejspt.js"  ></script>
+
+2. If you have a function like this:
+
+  function testFun(){
+     for (var i=0;i<500;i++){
+	   $("#test").html("Hello World");
+	 }	 
+  }
+
+
+  you can test the function's Performance with:
+
+   *jspt.test(function(){testFun();}); *
+
+   
